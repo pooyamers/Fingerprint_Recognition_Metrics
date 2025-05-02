@@ -5,4 +5,6 @@ Fingerprints are the most widely used biometric for identification and authentic
 
 In this exploratory analysis, I investigate the accuracy and performance of different types of fingerprint matching algorithms, starting with basic image comparison algorithms such as scale-invariant feature transform (SIFT), and advancing onto convolutional neural networks(CNN).
 
+![Participant](Images/101_1.png)
+
 The dataset used is from the publicly available FVC2000 competition(http://bias.csr.unibo.it/fvc2000/). 
