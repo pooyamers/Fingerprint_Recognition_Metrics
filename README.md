@@ -1,6 +1,8 @@
 # Fingerprint_Recognition_Metrics
 Status: Ongoing
 Current draft: 30/05/2025
+
+
 In this personal project, I compared the performance of two common image comparison tools: SIFT (Scale-invariant feature transform) and Neural networks, when applied to fingerprint recognition. 
 
 1) SIFT:
