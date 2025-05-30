@@ -18,7 +18,7 @@ In this personal project, I compared the performance of two common image compari
    - Using the pre-trained weights of MobileNetV2 for transfer learning
    - Using a Siamese network architecture to construct a similarity function
 
-   Since the number of images per fingerprint per individual is very low (8), vanilla NN would not perform very well. (In some tests, I only achieved a similarity score of ~ 30%, which is subpar to the basic SIFT.
+   Since the number of images per fingerprint per individual is very low (8), vanilla NN would not perform very well. (In some tests, I only achieved a similarity score of ~ 30%, which is subpar to the basic SIFT.)
    Therefore, I used a Siamese architecture, which instead of memorizing classes, learns a distance metric based on the similarity of two images.
    The performance is much better compared to SIFT:
    - Final training accuracy: 0.9865 (There is some overfitting, to be expected given the small sample size)
