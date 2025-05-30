@@ -10,6 +10,7 @@ In this personal project, I compared the performance of two common image compari
    
 ![1](Images/01.png)
   - Using gray-scale, normalized images
+    
   SIFT found approximately 1550 keypoints from each image of one fingerprint. However, there were at most only 555 matches between two images, resulting in a similarity score of around 35.49%. 
   Since the industry-accepted similarity score is 50% to accept two fingerprints as identical, I conclude that SIFT, without further modifications, is not sufficient for fingerprint recognition. 
 
