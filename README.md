@@ -3,7 +3,9 @@ Status: Ongoing
 Current draft: 30/05/2025
 In this personal project, I compared the performance of two common image comparison tools: SIFT (Scale-invariant feature transform) and Neural networks, when applied to fingerprint recognition. 
 
-1) SIFT: 
+1) SIFT:
+
+   
 ![1](Images/01.png)
   - Using gray-scale, normalized images
   SIFT found approximately 1550 keypoints from each image of one fingerprint. However, there were at most only 555 matches between two images, resulting in a similarity score of around 35.49%. 
