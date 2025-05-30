@@ -21,7 +21,9 @@ In this personal project, I compared the performance of two common image compari
    - Final training accuracy: 0.9865 (There is some overfitting, to be expected given the small sample size)
    - Final validation accuracy: 0.5625
    - Recognition accuracy by nearest neighbor: 71.25%, much better than the Similarity score of SIFT (35.49%).
-![1](Result_CNN.png)
+  
+     
+![1](Images/Result_CNN.png)
 
   
 The dataset used is from the publicly available FVC2000 competition(http://bias.csr.unibo.it/fvc2000/).
