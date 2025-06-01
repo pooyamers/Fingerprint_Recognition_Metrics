@@ -37,3 +37,4 @@ img3 = cv2.drawMatches(img1, kp1, img2, kp2, matches[:50], img2, flags=2)
 #plt.imshow(img3),plt.show()
 
 print("Similarity score: ", len(matches)/((len(kp1)+len(kp2))/2))
+print(len(des1), len(des2))

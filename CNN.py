@@ -24,9 +24,7 @@ labels = []
 for label_idx, class_name in enumerate(class_names):
     class_folder = os.path.join(data_dir, class_name)
     for file_name in os.listdir(class_folder):
-        if file_name.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp')):
-            file_paths.append(os.path.join(class_folder, file_name))
-            labels.append(label_idx)
+        labels.append(label_idx)
 
 file_paths = np.array(file_paths)
 labels = np.array(labels)
@@ -35,7 +33,7 @@ print(f"Total images: {len(file_paths)}")
 
 def load_and_preprocess_image(path):
     """
-    Helper function to load and preprocess a single image.
+    Helper function to load and preprocess an image.
     Args:
         path (str): Path to the image file.
     Returns:
